@@ -1,0 +1,25 @@
+{
+  "name": "moviesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "node": "node app.js",
+    "client": "cd client && npm start",
+    "start": "nodemon app.js",
+    "runBoth": "concurrently \"nodemon app.js\" \" npm run client\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "nodemon": "^1.18.10",
+    "react-router": "^4.3.1"
+  }
+}
